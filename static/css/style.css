@@ -1,3 +1,14 @@
 #hPageMain{
     width: 100vw;
+    height: 100vh;
+}
+
+nav{
+    font-family: 'Playfair Display', serif;
+    font-size: 1.25em;
+}
+
+a.navbar-brand{
+    font-family: 'Whisper', cursive;
+    font-size: 1.75em;
 }
