@@ -12,3 +12,20 @@ a.navbar-brand{
     font-family: 'Whisper', cursive;
     font-size: 1.75em;
 }
+
+.aboutText{
+    margin-left: 50px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    font-family: 'Playfair Display', serif;
+}
+
+.aboutText>h2{
+    margin-bottom: 20px;
+    margin-top: 7.5%;
+}
+
+.imgAbout{
+    margin-top: 17%;
+    margin-left: 5%;
+}
