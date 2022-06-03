@@ -40,6 +40,27 @@ a.nav-link{
     letter-spacing: 1.1;
 }
 
+#h2menu, #h2about{
+    text-align: center;
+    padding-bottom: 5%;
+    font-family: 'Playfair Display', serif;
+}
+
+#h2about{
+    padding-top: 5%;
+}
+
+.abouttext{
+    font-family: 'Tiro Bangla', serif;
+    letter-spacing: 1.1;
+    font-size:1.2em;
+}
+
+.menuimg{
+    height:400px;    
+    padding-bottom: 10px;
+}
+
 /* Media Queries */
 
 @media (min-width: 1025px) {
