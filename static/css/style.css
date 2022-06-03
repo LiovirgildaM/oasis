@@ -1,0 +1,63 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+/* Navbar */
+a.nav-link{
+    font-family: 'Playfair Display', serif;
+    font-size: 1.2em;
+}
+
+/* Section- Video */
+
+.videobackground{
+    position:relative;
+    z-index:0;
+    margin: 0;
+}
+
+.videotextoverlay{
+    display: none;
+}
+
+#colorquote{
+    color: rgb(253, 47, 47);
+}
+
+#foodcolor{
+    color: orangered;
+}
+
+/* Section - text */
+
+.randomtext{
+    padding-top: 7.5%;
+    text-align: center;
+    font-size: 1.4em;
+    padding-bottom: 5%;
+    font-family: 'Tiro Bangla', serif;
+    letter-spacing: 1.1;
+}
+
+/* Media Queries */
+
+@media (min-width: 1025px) {
+
+    .videotextoverlay{
+        display: block;
+        position:absolute;
+        top: 33.3%;
+        text-align: center;
+        left:33.3%;
+        right: 33.3%;
+        z-index:1;
+        color: beige;
+        font-size: 2.3em;
+        font-family: 'Tiro Devanagari Sanskrit', serif;
+    }
+
+    .randomtext{
+        font-size: 1.8em;
+    }
+}
