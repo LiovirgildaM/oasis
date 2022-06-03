@@ -9,6 +9,11 @@ a.nav-link{
     font-size: 1.2em;
 }
 
+a.navbar-brand{
+    font-family: 'Pacifico', cursive;
+    font-size: 1.4em;
+}
+
 /* Section- Video */
 
 .videobackground{
@@ -40,25 +45,38 @@ a.nav-link{
     letter-spacing: 1.1;
 }
 
-#h2menu, #h2about{
+#h2menu, #h2about, #h2contact{
     text-align: center;
     padding-bottom: 5%;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Pacifico', cursive;
 }
 
-#h2about{
+#h2about, #h2contact{
     padding-top: 5%;
-}
-
-.abouttext{
-    font-family: 'Tiro Bangla', serif;
-    letter-spacing: 1.1;
-    font-size:1.2em;
 }
 
 .menuimg{
     height:400px;    
     padding-bottom: 10px;
+}
+
+.abouttext{
+    font-size:1.2em;
+}
+
+.contacttext{
+    font-size: 1.6em;
+}
+
+.abouttext, .contacttext, footer{
+    font-family: 'Tiro Bangla', serif;
+    letter-spacing: 1.1;
+}
+
+footer{
+    text-align: center;
+    font-size: 1.2em;
+    padding: 15px 0;
 }
 
 /* Media Queries */
